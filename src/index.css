@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/assets/fonts/bebas.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/assets/fonts/playfair.woff2') format('woff2');
+  font-weight: 400 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/assets/fonts/playfair-italic.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/assets/fonts/dmsans.woff2') format('woff2');
+  font-weight: 100 1000;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── subtle editorial background patterns ── */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(16, 16, 22, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(16, 16, 22, 0.045) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+/* scattered "confetti" of shapes — rings, plusses, squares, triangles, dots.
+   One large hand-placed 640px tile so the repeat is never obvious. */
+.bg-dots,
+.bg-dots-wide {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='640' viewBox='0 0 640 640'%3E%3Cg fill='none' stroke='%23101016' stroke-opacity='0.08' stroke-width='1.2'%3E%3Ccircle cx='84' cy='64' r='7'/%3E%3Crect x='514' y='76' width='13' height='13' transform='rotate(18 520 82)'/%3E%3Cpath d='M296 112h18M305 103v18'/%3E%3Cpath d='M172 236l8 14h-16z'/%3E%3Ccircle cx='476' cy='468' r='10'/%3E%3Cpath d='M52 376h16M60 368v16'/%3E%3Cpath d='M86 552l7 12h-14z'/%3E%3Crect x='196' y='36' width='10' height='10' transform='rotate(40 201 41)'/%3E%3Cpath d='M602 592h16M610 584v16'/%3E%3Cpath d='M430 330l7 12h-14z'/%3E%3C/g%3E%3Cg fill='%234F46E5' fill-opacity='0.10'%3E%3Ccircle cx='418' cy='198' r='2.2'/%3E%3Ccircle cx='348' cy='556' r='2.2'/%3E%3Ccircle cx='556' cy='176' r='1.8'/%3E%3Ccircle cx='238' cy='428' r='1.8'/%3E%3Ccircle cx='140' cy='150' r='1.8'/%3E%3Ccircle cx='530' cy='380' r='2'/%3E%3C/g%3E%3Cg fill='none' stroke='%234F46E5' stroke-opacity='0.10' stroke-width='1.2'%3E%3Ccircle cx='598' cy='300' r='4.5'/%3E%3Cpath d='M388 44h14M395 37v14'/%3E%3Crect x='120' y='452' width='11' height='11' transform='rotate(25 125 457)'/%3E%3Ccircle cx='288' cy='620' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 640px 640px;
+}
+/* wider variant: same tile scaled up → sparser, fainter feel on white sections */
+.bg-dots-wide {
+  background-size: 860px 860px;
+  background-position: 180px 90px;
+}
+.text-outline {
+  -webkit-text-stroke: 1.5px rgba(79, 70, 229, 0.10);
+  color: transparent;
+}
+
+::selection {
+  background: rgba(79, 70, 229, 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
