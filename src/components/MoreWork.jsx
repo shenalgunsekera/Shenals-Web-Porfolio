@@ -1,10 +1,10 @@
 import Reveal from './Reveal.jsx';
 
 const items = [
-  { title: 'Pixel Vault', desc: 'White-label mystery-box game engine — provably-fair prize RNG, wallet bridge and an operator dashboard.', tech: 'Fastify · React', href: 'https://github.com/shenalgunsekera' },
+  { title: 'Pixel Vault', desc: 'White-label mystery-box game engine with provably-fair prize RNG, a wallet bridge and an operator dashboard.', tech: 'Fastify · React', href: 'https://github.com/shenalgunsekera' },
   { title: 'EnrollIQ', desc: 'Student enrollment platform built as a Turborepo monorepo with Dockerized services.', tech: 'TypeScript · Docker', href: 'https://github.com/shenalgunsekera' },
   { title: 'TripFinder', desc: 'Travel discovery app for exploring destinations and planning trips on the go.', tech: 'React Native', href: 'https://github.com/shenalgunsekera' },
-  { title: 'Dresswell', desc: 'Fully responsive clothing store with scroll animations — an early frameworks deep-dive.', tech: 'Bootstrap · PHP', href: 'http://dresswell.infinityfreeapp.com' },
+  { title: 'Dresswell', desc: 'Fully responsive clothing store with scroll animations, an early frameworks deep-dive.', tech: 'Bootstrap · PHP', href: 'http://dresswell.infinityfreeapp.com' },
 ];
 
 export default function MoreWork() {

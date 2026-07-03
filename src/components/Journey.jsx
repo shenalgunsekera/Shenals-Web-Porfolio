@@ -1,13 +1,13 @@
 import Reveal from './Reveal.jsx';
 
 const rows = [
-  { year: '2026 →', title: 'PMO Intern — Virtusa', desc: 'Project Management Office intern at a global IT services company — governance, planning and delivery tracking on enterprise engagements.' },
+  { year: '2026 →', title: 'PMO Intern, Virtusa', desc: 'Project Management Office intern at a global IT services company. Governance, planning and delivery tracking on enterprise engagements.' },
   { year: '2026', title: 'APT Galactic Arcade goes live', desc: 'Launched a 13-game arcade platform with real players, real volume and a full agent economy.' },
-  { year: '2026', title: 'BSc (Hons) Software Engineering — First Class Honours', desc: 'University of Bedfordshire. Concentrations in intelligence & modelling; DSA, OOP, networks, algorithm design.' },
-  { year: '2024 →', title: 'System Developer & Designer — Ceilao Insurance Brokers', desc: 'On-call developer and graphic designer: built their brokerage management system and brand creatives.' },
-  { year: '2024 →', title: 'Community Developer — T3X Solutions', desc: 'Building alongside a dev community, sharpening production skills on real-world projects.' },
-  { year: '2024', title: 'Marketing Intern — SLIIT City Uni', desc: 'Student counselor role: communication and people skills to match the technical ones.' },
-  { year: '2023', title: 'Foundation in IT — SLIIT City Uni · GPA 3.7', desc: '2 A*s and 4 As at O/Ls (Horizon College International), then straight into software.' },
+  { year: '2026', title: 'BSc (Hons) Software Engineering, First Class Honours', desc: 'University of Bedfordshire. Concentrations in intelligence & modelling; DSA, OOP, networks, algorithm design.' },
+  { year: '2024 →', title: 'System Developer & Designer, Ceilao Insurance Brokers', desc: 'On-call developer and graphic designer: built their brokerage management system and brand creatives.' },
+  { year: '2024 →', title: 'Community Developer, T3X Solutions', desc: 'Building alongside a dev community, sharpening production skills on real-world projects.' },
+  { year: '2024', title: 'Marketing Intern, SLIIT City Uni', desc: 'Student counselor role: communication and people skills to match the technical ones.' },
+  { year: '2023', title: 'Foundation in IT, SLIIT City Uni · GPA 3.7', desc: '2 A*s and 4 As at O/Ls (Horizon College International), then straight into software.' },
 ];
 
 export default function Journey() {

@@ -3,13 +3,14 @@ import Marquee from './Marquee.jsx';
 
 const logos = [
   { src: '/assets/img/ceilao-logo.png', name: 'Ceilao Insurance Brokers' },
+  { src: '/assets/img/galactic-logo.png', name: 'Galactic Arcade by Club APT' },
   { src: '/assets/img/powermate-logo.png', name: 'Power Mate Investment' },
   { src: '/assets/img/sterling-logo.png', name: 'Sterling Automobiles' },
 ];
 const textTiles = ['T3X Solutions'];
 
 const marqueeItems = [
-  'Ceilao Insurance Brokers', 'Power Mate Investment', 'Sterling Automobiles', 'T3X Solutions',
+  'Ceilao Insurance Brokers', 'Galactic Arcade by Club APT', 'Power Mate Investment', 'Sterling Automobiles', 'T3X Solutions',
 ];
 
 export default function Companies() {
@@ -22,7 +23,7 @@ export default function Companies() {
           </p>
         </Reveal>
         <Reveal delay={0.08}>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-line border border-line mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-px bg-line border border-line mb-12">
             {logos.map((l) => (
               <div key={l.name} className="bg-ink p-7 flex flex-col items-center justify-center gap-4 min-h-[130px]">
                 <img src={l.src} alt={l.name} loading="lazy" className="h-12 w-auto object-contain" />

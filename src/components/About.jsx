@@ -3,7 +3,7 @@ import Reveal from './Reveal.jsx';
 const strengths = [
   { n: '01', title: 'Frontend engineering', desc: 'React, Next.js and motion-rich interfaces that stay fast and accessible.' },
   { n: '02', title: 'Backend & APIs', desc: 'Node.js services, Firebase architectures, real-time systems and payments flows.' },
-  { n: '03', title: 'Design', desc: 'UI, brand and graphic design — I design the product before I build it.' },
+  { n: '03', title: 'Design', desc: 'UI, brand and graphic design. I design the product before I build it.' },
 ];
 
 export default function About() {
@@ -24,11 +24,11 @@ export default function About() {
             Today I'm a <span className="text-brand font-semibold">PMO intern at Virtusa</span>.
             Since 2024 I've also worked as a freelance system developer and graphic designer for
             Ceilao Insurance Brokers, built with the dev community at T3X Solutions, and launched
-            my own platforms — including an arcade gaming site with hundreds of real players and
+            my own platforms, including an arcade gaming site with hundreds of real players and
             real transaction volume.
           </p>
           <p className="font-body text-base text-mute-2 leading-relaxed">
-            Design, build, deploy, maintain — I handle the full journey. Off the keyboard you'll
+            Design, build, deploy, maintain. I handle the full journey. Off the keyboard you'll
             find me on a basketball court, at a table-tennis table, or in the gym.
           </p>
         </Reveal>
