@@ -33,11 +33,11 @@ export default function Hero() {
       </motion.span>
 
       {/* floating decorative shapes */}
-      <motion.div style={{ y: shapesY }} className="absolute inset-0 pointer-events-none hidden md:block" aria-hidden="true">
-        <Floaty amp={14} dur={7} className="absolute left-[7%] top-[26%]">
+      <motion.div style={{ y: shapesY }} className="absolute inset-0 pointer-events-none" aria-hidden="true">
+        <Floaty amp={14} dur={7} className="absolute left-[7%] top-[26%] max-md:left-[5%] max-md:top-[16%]">
           <svg width="34" height="34" viewBox="0 0 34 34" fill="none" stroke="#4F46E5" strokeOpacity="0.3" strokeWidth="1.5"><circle cx="17" cy="17" r="15" /></svg>
         </Floaty>
-        <Floaty amp={10} dur={5.2} delay={0.8} className="absolute right-[26%] top-[15%]">
+        <Floaty amp={10} dur={5.2} delay={0.8} className="absolute right-[26%] top-[15%] max-md:right-[8%] max-md:top-[13%]">
           <svg width="26" height="26" viewBox="0 0 26 26" stroke="#101016" strokeOpacity="0.22" strokeWidth="1.5"><path d="M13 2v22M2 13h22" /></svg>
         </Floaty>
         <Floaty amp={12} dur={6.4} delay={1.6} className="absolute left-[40%] bottom-[22%]">
